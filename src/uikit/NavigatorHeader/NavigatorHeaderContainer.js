@@ -26,7 +26,7 @@ class NavigatorHeaderContainer extends Component {
   // ///////////////////////////////////////////////////////////////////////////////
 
   goBack () {
-    this.props.settings.navigation.goBack()
+    this.props.settings.navigation.pop()
   }
 
   toggleDrawer () {
